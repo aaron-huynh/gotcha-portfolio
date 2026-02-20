@@ -1,0 +1,9 @@
+export { default as Hero } from "./Hero";
+export { default as Challenge } from "./Challenge";
+export { default as Solution } from "./Solution";
+export { default as Comparison } from "./Comparison";
+export { default as Persona } from "./Persona";
+export { default as Roadmap } from "./Roadmap";
+export { default as Metrics } from "./Metrics";
+export { default as Conclusion } from "./Conclusion";
+export { default as Footer } from "./Footer";
