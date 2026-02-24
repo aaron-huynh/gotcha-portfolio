@@ -12,14 +12,14 @@ export default function Solution({ t, containerStyle }) {
           <SectionHeading
             number="02"
             title="The Solution: Action Paths"
-            subtitle="Text-led, interactive learning modules inspired by Brilliant.org — designed to lower barriers and promote active recall."
+            subtitle="Text-led, interactive learning modules inspired by Brilliant.org — an additional format that gives users a quick, accessible way to practise mental fitness."
             t={t}
           />
         </FadeIn>
 
         <FadeIn delay={0.1}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 16, marginBottom: 32 }}>
-            <FeaturePill icon="⚡" title="Micro-Interactions" desc="Short, scenario-based questions (2 min max) that convert passive watching into immediate decision-making." t={t} />
+            <FeaturePill icon="⚡" title="Micro-Interactions" desc="Short, scenario-based questions (2 min max) that let users actively engage with mental fitness concepts at their own pace." t={t} />
             <FeaturePill icon="🧩" title="Progressive Disclosure" desc="Information revealed in small, contextual chunks — mitigating overwhelm and maintaining user focus." t={t} />
             <FeaturePill icon="✨" title="Instant Feedback Loops" desc="Immediate, science-backed justification for user choices — reinforcing learning and building confidence." t={t} />
           </div>

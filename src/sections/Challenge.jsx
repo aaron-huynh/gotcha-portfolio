@@ -11,8 +11,8 @@ export default function Challenge({ t, containerStyle }) {
           <path d="M12 8V12L15 15" stroke={t.terracotta} strokeWidth="1.5" strokeLinecap="round" />
         </>
       ),
-      title: "Contextual Barriers",
-      text: "Users can't engage with audio/video in public spaces, noisy environments, or areas with poor connectivity — exactly where they might need support most.",
+      title: "Contextual Constraints",
+      text: "Video isn't always an option — public spaces, noisy environments, or areas with poor connectivity can make it hard to engage with audio/video content when users need support most.",
     },
     {
       icon: (
@@ -22,8 +22,8 @@ export default function Challenge({ t, containerStyle }) {
           <path d="M2 12L12 17L22 12" stroke={t.terracotta} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </>
       ),
-      title: "Cognitive Load",
-      text: "Video is inherently passive. For complex emotional concepts, users exhibit low retention and completion rates as mere observers rather than active participants.",
+      title: "Different Learning Styles",
+      text: "Some users prefer to learn at their own pace. An interactive, text-based format gives them the option to engage more actively with emotional concepts when that suits them better.",
     },
   ];
 
@@ -34,7 +34,7 @@ export default function Challenge({ t, containerStyle }) {
           <SectionHeading
             number="01"
             title="The Challenge"
-            subtitle="Video-only content creates friction for the users who need mental fitness most."
+            subtitle="Not every user can access video content in every situation — so we explored an additional format to meet them where they are."
             t={t}
           />
         </FadeIn>

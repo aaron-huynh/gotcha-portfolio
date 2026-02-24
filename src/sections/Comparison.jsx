@@ -16,8 +16,8 @@ export default function Comparison({ t, containerStyle }) {
         <FadeIn>
           <SectionHeading
             number="03"
-            title="Before & After"
-            subtitle="How Action Paths shift the user experience from consumption to participation."
+            title="Two Formats, One Goal"
+            subtitle="How video and Action Paths complement each other — giving users the flexibility to choose what works best for them."
             t={t}
           />
         </FadeIn>
@@ -26,8 +26,8 @@ export default function Comparison({ t, containerStyle }) {
           <div style={{ background: t.cream, borderRadius: 16, overflow: "hidden", border: `1px solid ${t.sand}`, transition: TRANSITION }}>
             <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr 1fr", padding: "14px 16px", borderBottom: `2px solid ${t.sand}` }}>
               <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", color: t.warmGray }}>Feature</span>
-              <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", color: t.warmGray, textAlign: "center" }}>Video (Before)</span>
-              <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", color: t.sageDark, textAlign: "center" }}>Action Paths ✓</span>
+              <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", color: t.warmGray, textAlign: "center" }}>Video</span>
+              <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em", color: t.sageDark, textAlign: "center" }}>Action Paths</span>
             </div>
             {ROWS.map((row, i) => (
               <CompareRow key={i} feature={row[0]} before={row[1]} after={row[2]} index={i} t={t} />

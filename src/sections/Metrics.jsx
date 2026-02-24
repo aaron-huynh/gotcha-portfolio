@@ -9,7 +9,7 @@ export default function Metrics({ t, containerStyle }) {
           <SectionHeading
             number="06"
             title="Measuring Success"
-            subtitle="KPIs designed to validate that interactive content drives engagement and habit formation."
+            subtitle="KPIs designed to validate that the interactive format meets user needs and supports habit formation."
             t={t}
           />
         </FadeIn>
@@ -19,7 +19,7 @@ export default function Metrics({ t, containerStyle }) {
             <MetricCard
               label="Conversion to Completion"
               value="+25%"
-              description="Target completion rate lift versus the equivalent video workout. The primary signal that interactivity drives engagement."
+              description="Target completion rate for Action Paths. The primary signal that users find the interactive format engaging and worthwhile."
               accent={t.terracotta}
               t={t}
             />

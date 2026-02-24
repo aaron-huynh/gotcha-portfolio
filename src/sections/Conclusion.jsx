@@ -30,7 +30,7 @@ export default function Conclusion({ t, containerStyle }) {
                 lineHeight: 1.3,
               }}
             >
-              From consumption to <span style={{ color: t.terracotta, fontStyle: "italic" }}>active practice</span>
+              More ways to <span style={{ color: t.terracotta, fontStyle: "italic" }}>practise mental fitness</span>
             </h2>
             <p
               style={{
@@ -42,8 +42,8 @@ export default function Conclusion({ t, containerStyle }) {
                 lineHeight: 1.65,
               }}
             >
-              Action Paths transforms Gotcha4Life into an engaged, active learning platform — reducing the barrier to
-              mental fitness and making practice as quick and accessible as a game.
+              Action Paths gives Gotcha4Life users an additional, flexible way to engage with mental fitness —
+              a convenient option they can choose whenever and wherever it suits them.
             </p>
             <SketchUnderline width={100} color={t.terracottaLight} />
           </div>

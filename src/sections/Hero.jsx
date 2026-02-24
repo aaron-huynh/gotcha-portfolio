@@ -88,8 +88,8 @@ export default function Hero({ t, dark, scrollY, containerStyle }) {
               maxWidth: 650,
             }}
           >
-            Transforming Passive Consumption into{" "}
-            <span style={{ color: t.terracotta, fontStyle: "italic" }}>Active Mental Fitness</span>
+            Making Mental Fitness{" "}
+            <span style={{ color: t.terracotta, fontStyle: "italic" }}>Accessible Anywhere</span>
           </h1>
           <SketchUnderline width={180} color={t.terracotta} />
         </FadeIn>
@@ -105,8 +105,8 @@ export default function Hero({ t, dark, scrollY, containerStyle }) {
               margin: "24px 0 0",
             }}
           >
-            Gotcha4Life "Mental Fitness Gym" — designing interactive learning modules that make mental fitness
-            practice as quick and accessible as a game.
+            Gotcha4Life "Mental Fitness Gym" — designing interactive learning modules as an additional way for
+            users to practise mental fitness, wherever and whenever suits them.
           </p>
         </FadeIn>
 
